@@ -1,0 +1,7 @@
+# Swap files
+*.bak
+
+# Relics from python build
+python/LWPR_Module.egg-info/
+python/build/
+python/dist/
