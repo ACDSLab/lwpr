@@ -22,7 +22,7 @@ Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #include <lwpr_mem.h>
 #include <string.h>
 #include <stdlib.h>
-typedef long int                intptr_t;
+//typedef long int                intptr_t;
 
 int lwpr_mem_alloc_rf(LWPR_ReceptiveField *RF, const LWPR_Model *model, int nReg, int nRegStore) {
    double *storage;

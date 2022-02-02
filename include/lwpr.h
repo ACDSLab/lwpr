@@ -74,6 +74,10 @@ Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #ifndef __LWPR_H
 #define __LWPR_H
 
+#if defined(_WIN32) || defined(_WIN64)
+#define strcasecmp _stricmp
+#endif /* Def WIN32 or Def WIN64 */
+
 #include <lwpr_config.h>
 
 #ifndef NUM_THREADS 
